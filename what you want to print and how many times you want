@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+    char text[100];
+    int n;
+
+    printf("Ki print korte chao? ");
+    scanf("%s", text);
+
+    printf("Koto bar print korte chao? ");
+    scanf("%d", &n);
+
+    for (int i = 1; i <= n; i++)
+    {
+        printf(" %s%d\n", text,i);
+    }
+
+    return 0;
+}
